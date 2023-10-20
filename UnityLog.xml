@@ -1,0 +1,35 @@
+Initiating legacy licensing module
+
+LICENSE SYSTEM [20231020 19:36:28] Next license update check is after 2021-08-13T10:13:58
+
+Built from '2019.2/staging' branch; Version is '2019.2.8f1 (ff5b465c8d13) revision 16735046'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 65448 MB
+BatchMode: 0, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 57229 was selected
+
+ COMMAND LINE ARGUMENTS:
+F:\Unity\Editor\Unity.exe
+-runTests
+-projectPath
+F:\Unity_Projects\MetaAssigment
+-testResults
+F:\Unity_Projects\MetaAssigment\Results\TestResults.xml
+-logFile
+F:\Unity_Projects\MetaAssigment\Results\UnityLog.xml
+-testPlatform
+editmode
+Successfully changed project path to: F:\Unity_Projects\MetaAssigment
+F:/Unity_Projects/MetaAssigment
+Using Asset Import Pipeline V1.
+Loading GUID <-> Path mappings...0.000132 seconds
+Loading Asset Database...0.000522 seconds
+AssetDatabase consistency checks...0.026159 seconds
+[Package Manager] Done resolving packages in 1.03s seconds
+An error occurred while resolving packages:
+  Package com.unity.xr.management@4.0.1 has invalid dependencies:
+    com.unity.modules.subsystems: Package [com.unity.modules.subsystems@1.0.0] cannot be found
+  Package com.unity.xr.windowsmr@4.6.5 has invalid dependencies:
+    com.unity.modules.subsystems: Package [com.unity.modules.subsystems@1.0.0] cannot be found
+
+A re-import of the project may be required to fix the issue or a manual modification of F:/Unity_Projects/MetaAssigment/Packages/manifest.json file.
+Exiting without the bug reporter. Application will terminate with return code 1
